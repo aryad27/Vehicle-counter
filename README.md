@@ -1,4 +1,4 @@
-# Model to count the number of vehicles crossing a line coordinate.
+# Vehicle Counter Model
 Video analysis is a challenging problem due to a number of factors. Shadows, distracting features, Objects other than vehicles, etc, are some examples that make this model more prone to errors and a major source of inaccuracy. However, to build a model to contend with these challenges, the approach I followed was: 
 
 1) Background Subtraction (BS) is a common and widely used technique for generating a foreground mask (namely, a binary image containing the pixels belonging to moving objects in the scene) by using static cameras.
