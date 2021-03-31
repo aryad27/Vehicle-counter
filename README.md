@@ -5,7 +5,9 @@ Video analysis is a challenging problem due to a number of factors. Shadows, dis
 
 In OpenCV we have a few algorithms to do this operation –
 BackgroundSubtractorMOG – It is a Gaussian Mixture-based Background/Foreground Segmentation Algorithm.
+
 BackgroundSubtractorMOG2 – It is also a Gaussian Mixture-based Background/Foreground Segmentation Algorithm. It provides better adaptability to varying scenes due illumination changes etc.
+
 BackgroundSubtractorKNN – This algorithm implements the K-nearest neighbours background subtraction . Very efficient if the number of foreground pixels is low.
 I used BackgroundSubtractorKNN for the project. 
 
